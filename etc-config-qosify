@@ -65,8 +65,8 @@ config interface wan
 	option nat 1
 	option host_isolate 1
 	option autorate_ingress 1
-	option ingress_options "nat dual-dsthost overhead 38 mpu 84 ingress"
-	option egress_options "wash nat dual-srchost overhead 38 mpu 84 ack-filter egress"
+	option ingress_options ""
+	option egress_options ""
 	option options ""
 
 config device wandev
