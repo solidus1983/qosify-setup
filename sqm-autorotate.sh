@@ -11,7 +11,7 @@ debug=1
 enable_verbose_output=1 # enable (1) or disable (0) output monitoring lines showing bandwidth changes
 
 ul_if=pppoe-wan # upload interface
-dl_if=ifb-pppoe-wan # download interface
+dl_if=ifb4pppoe-wan # download interface
 
 max_ul_rate=48000 # maximum bandwidth for upload
 min_ul_rate=2300 # minimum bandwidth for upload
