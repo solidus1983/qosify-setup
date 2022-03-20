@@ -41,6 +41,15 @@ config class broadcast_video
 config class gaming
 	option ingress CS4
 	option egress CS4
+	
+config class high_throughput_data
+	option ingress AF12
+	option egress AF12
+	option dscp_prio AF11
+	option prio_max_avg_pkt_len 575
+	option dscp_bulk AF13
+	option bulk_trigger_pps 1000
+	option bulk_trigger_timeout 10
 
 config class multimedia_conferencing
 	option ingress AF42
